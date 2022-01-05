@@ -1,0 +1,45 @@
+*. Install EPPlus package.
+*. Add the following method:
+   public static byte[] WriteToExcel<T>
+           (
+                   List<T> rows,
+                   List<String> headers = null,
+                   Func<T, object[]> formatterFunc = null
+           )
+        {
+            using (var ms = new MemoryStream())
+            {
+                ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
+                using (var p = new ExcelPackage(ms))
+                {                    
+                    var row = 1;
+                    var col = 1;
+                    var ws = p.Workbook.Worksheets.Add("Export");
+
+                    var pis = typeof(T).GetProperties();
+
+                    foreach (var h in headers ?? pis.Select(pi => pi.Name).ToList())
+                    {
+                        ws.Cells[row, col++].Value = h;
+                    }
+
+                    foreach (var o in rows)
+                    {
+                        row++;
+                        col = 1;
+                        var values = formatterFunc == null ?
+                            pis.Select(pi => pi.GetValue(o)) : formatterFunc(o);
+                        foreach (var v in values)
+                        {
+                            ws.Cells[row, col++].Value = v;
+                        }
+                    }
+                    ws.Cells.AutoFitColumns();
+                    return p.GetAsByteArray();
+                }
+            }
+        }
+
+*. Usage:
+    byte[] content =   WriteToExcel<Customer>(oList_Customer, null, null);
+    File.WriteAllBytes(@"d:\Foo.xlsx", content);
