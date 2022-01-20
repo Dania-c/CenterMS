@@ -1,0 +1,14 @@
+E:\Rony\CenterMS\App\DALC\bin\Debug\net5.0\DALC.deps.json
+E:\Rony\CenterMS\App\DALC\bin\Debug\net5.0\DALC.dll
+E:\Rony\CenterMS\App\DALC\bin\Debug\net5.0\ref\DALC.dll
+E:\Rony\CenterMS\App\DALC\bin\Debug\net5.0\DALC.pdb
+E:\Rony\CenterMS\App\DALC\bin\Debug\net5.0\CoreTools.dll
+E:\Rony\CenterMS\App\DALC\obj\Debug\net5.0\DALC.csproj.AssemblyReference.cache
+E:\Rony\CenterMS\App\DALC\obj\Debug\net5.0\DALC.GeneratedMSBuildEditorConfig.editorconfig
+E:\Rony\CenterMS\App\DALC\obj\Debug\net5.0\DALC.AssemblyInfoInputs.cache
+E:\Rony\CenterMS\App\DALC\obj\Debug\net5.0\DALC.AssemblyInfo.cs
+E:\Rony\CenterMS\App\DALC\obj\Debug\net5.0\DALC.csproj.CoreCompileInputs.cache
+E:\Rony\CenterMS\App\DALC\obj\Debug\net5.0\DALC.csproj.CopyComplete
+E:\Rony\CenterMS\App\DALC\obj\Debug\net5.0\DALC.dll
+E:\Rony\CenterMS\App\DALC\obj\Debug\net5.0\ref\DALC.dll
+E:\Rony\CenterMS\App\DALC\obj\Debug\net5.0\DALC.pdb

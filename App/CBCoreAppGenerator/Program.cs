@@ -52,7 +52,7 @@ namespace CodeGenerator
             oCodeBooster.Android_Package_Name = "com.example.roni.myapplication";
             oCodeBooster.Is_Apply_Minification = false;
             oCodeBooster.Is_Show_Notifications_In_Console = true;
-            oCodeBooster.Is_Create_DB_Demo = true;
+            oCodeBooster.Is_Create_DB_Demo = false;
             oCodeBoosterClient.Is_Handle_Custom_Procedures = true;
             oCodeBoosterClient.Authenticate_User();
 
@@ -227,7 +227,7 @@ namespace CodeGenerator
             //oCodeBooster.Is_MemCached_Enabled = true;
             #endregion
 
-            oCodeBoosterClient.Local_Patch_Folder = @"D:\";
+            oCodeBoosterClient.Local_Patch_Folder = @"E:\Rony";
             oCodeBoosterClient.Is_Apply_CB_Rules = true;
             oCodeBoosterClient.Show_Embedded_TSql_Exceptions = false;
             oCodeBooster.Is_Profiling_Enabled = false;

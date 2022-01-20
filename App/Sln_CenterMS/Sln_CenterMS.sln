@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CBCoreAppGenerator", "..\CB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DALC", "..\DALC\DALC.csproj", "{780922F5-BDC7-4E67-9C9E-9CA434FA4FA2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLC", "..\BLC\BLC.csproj", "{5BE184CC-F618-4CF1-A643-2FB9C1940CF3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App01", "..\UnitTesting\App01.csproj", "{320EDCFB-47E7-48F4-8799-D46191D38F82}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{780922F5-BDC7-4E67-9C9E-9CA434FA4FA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{780922F5-BDC7-4E67-9C9E-9CA434FA4FA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{780922F5-BDC7-4E67-9C9E-9CA434FA4FA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BE184CC-F618-4CF1-A643-2FB9C1940CF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BE184CC-F618-4CF1-A643-2FB9C1940CF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BE184CC-F618-4CF1-A643-2FB9C1940CF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BE184CC-F618-4CF1-A643-2FB9C1940CF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{320EDCFB-47E7-48F4-8799-D46191D38F82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{320EDCFB-47E7-48F4-8799-D46191D38F82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{320EDCFB-47E7-48F4-8799-D46191D38F82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{320EDCFB-47E7-48F4-8799-D46191D38F82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

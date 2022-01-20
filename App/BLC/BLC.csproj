@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EnyimMemcachedCore" Version="2.5.3" />
+    <PackageReference Include="JWT" Version="8.8.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DALC\DALC.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CoreCrypto">
+      <HintPath>..\..\..\CB\Training\App\DLL\CoreCrypto.dll</HintPath>
+    </Reference>
+    <Reference Include="CoreHasher">
+      <HintPath>..\..\..\CB\Training\App\DLL\CoreHasher.dll</HintPath>
+    </Reference>
+    <Reference Include="CoreTools">
+      <HintPath>..\..\..\CB\Training\App\DLL\CoreTools.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
